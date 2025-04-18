@@ -209,7 +209,9 @@ class BaseOptimizer(object):
                  from_model_vec_size  : int,
                  iter_limit           : int,
                  seed                 : int = None,
-                 main_value_index     : int = 0
+                 main_value_index     : int = 0,
+                 *args,
+                 **kwargs
                  ) -> None:
         """
         __init__
